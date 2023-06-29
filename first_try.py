@@ -14,8 +14,11 @@ if transaction_type_input == '1':
     customer_name = input("Enter Customer's Name: ")
     item_purchased_name = input('Enter Item Name: ')
     price_of_purchased_item = input('Enter Price: ')
-print(customer_name)
-print(item_purchased_name)
-print(price_of_purchased_item)
+    print(customer_name)
+    print(item_purchased_name)
+    print(price_of_purchased_item)
 elif transaction_type_input == '2':
+    print('1. Sales of good')
+    print('Render of service')
+
 
